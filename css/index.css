@@ -1,0 +1,99 @@
+@media (min-width: 768px) {
+	.navbar-brand.abs
+	{
+		position: absolute;
+		width: 100%;
+		left: 0;
+		text-align: center;
+	}
+}
+/*.jumbotron {margin-bottom: 2rem;
+	background-color: #e9ecef;
+	border-radius: .3rem;
+	background-image:url('./assets/headerBackground.jpg');
+	background-attachment:fixed;background-position:center bottom;
+	background-size:cover;position:relative;width:100%;height:725px}*/
+
+	.img-fluid {
+		height: 40em;
+		width: 800em;
+		margin-bottom: 2rem
+	}
+
+	.col {
+		align-content: center;	
+	}
+
+	.jumbotron{
+		clear: both;
+		position: absolute;
+		background-image:url('../assets/headerBackground.jpg');
+		background-attachment:fixed;background-position:center bottom;
+		background-size:cover;position:relative;width:100%;height:725px}
+
+		.jumbotron .hero{background-attachment:fixed;margin:0 auto;padding:220px 0 220px;width:100%}
+		.jumbotron .container{text-align:center}
+		.jumbotron h1{font-family:'Roboto Slab',serif;font-size:80px;font-weight:700;color:#fff}
+		.jumbotron p{font-family:'Open Sans',sans-serif;color:#fff;font-size:25px}
+
+		.nav > li > a:hover, .nav > li > a:focus {
+  text-decoration: none;
+  background-color: transparent;;
+}
+#services {
+	text-align: center;
+}
+section {
+	text-align: center;
+}
+
+img {
+    vertical-align: middle;
+   	align: middle;
+}
+button {
+	: center;
+}
+
+
+/* Create four equal columns that sits next to each other */
+.column {
+    -ms-flex: 25%; /* IE10 */
+/*    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}*/
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+    .column {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+/*.camera{
+	background-color: #ff0066;
+	padding-top: 20px;
+}
+*/
+
+.background{
+  background-color: #00ffcc; 
+  /*background-image: */
+}
